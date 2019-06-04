@@ -85,7 +85,6 @@ class Owner
     cat_count = 0 
     
     self.pets.each do |pet, val|
-      #pet.count
           case pet
           when :fishes
             fish_count = val.count
